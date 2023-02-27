@@ -23,8 +23,7 @@ function Body(){
           >KULISIC</a
         >i skdqwopjfjf<a id="anchor" className="pragmatic">SOFTWARE</a
         >skhdfksdjfskdfhsdfsasd<a id="anchor" className="programmer">ENGINEER</a
-        >kjsqgfjtsdadewl</text
-      >
+        >kjsqgfjtsdadewl</text>
     </nav>
     <nav id="navside">
       <ul className="ul-side">
