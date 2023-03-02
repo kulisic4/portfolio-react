@@ -126,7 +126,7 @@ function Body() {
           Projects section. This is my portfolio website, so you can check what
           skils I have. Feel free to check out the links on the right side of
           the page! Those are the links that will lead you to my social networks
-          and GitHub.
+          and GitHub account.
         </p>
 
         <img
