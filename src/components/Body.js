@@ -157,7 +157,7 @@ function Body() {
         </p>
         <img
           className="apple-vid"
-          src="portfolio-react\public\Apple clone page GIF.gif"
+          src="https://media1.tenor.com/images/42121aa0e9465520f30287ed730450b3/tenor.gif?itemid=27643612"
         />
         <div id="like-button-root"></div>
       </section>
