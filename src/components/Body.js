@@ -58,7 +58,7 @@ function Body() {
               className="anchor-twitter"
               href="https://twitter.com/kulisic4"
             >
-              <i className="fa-brands fa-twitter"></i> {/*<FontAwesomeIcon icon={brands('twitter')} />*/ */}
+              <i className="fa-brands fa-twitter"></i> {/*<FontAwesomeIcon icon={brands('twitter')} />*/}
             </a>
           </li>
           <li className="linkedin">
