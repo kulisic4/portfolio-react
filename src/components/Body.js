@@ -131,7 +131,7 @@ function Body() {
 
         <img
           className="img-about"
-          src="portfolio-react\src\Images\Danilo Kulisic.jpg"
+          src="https://pbs.twimg.com/profile_images/1614701515192647681/S2v-I6xJ_400x400.jpg"
         />
       </section>
       <section className="section2" id="anchor-proj">
