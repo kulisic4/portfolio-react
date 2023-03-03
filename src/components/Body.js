@@ -1,6 +1,4 @@
 import react from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro';
 
 function Body() {
   return (
@@ -60,7 +58,7 @@ function Body() {
               className="anchor-twitter"
               href="https://twitter.com/kulisic4"
             >
-              <i className="fa-brands fa-twitter"></i>
+              <i className="fa-brands fa-twitter"></i> {/*<FontAwesomeIcon icon={brands('twitter')} />*/ */}
             </a>
           </li>
           <li className="linkedin">
