@@ -1,4 +1,5 @@
 import react from "react";
+import TweetEmbed from "react-tweet-embed";
 
 function Body() {
   return (
@@ -58,7 +59,8 @@ function Body() {
               className="anchor-twitter"
               href="https://twitter.com/kulisic4"
             >
-              <i className="fa-brands fa-twitter"></i> {/*<FontAwesomeIcon icon={brands('twitter')} />*/}
+              <i className="fa-brands fa-twitter"></i>{" "}
+              {/*<FontAwesomeIcon icon={brands('twitter')} />*/}
             </a>
           </li>
           <li className="linkedin">
@@ -210,6 +212,17 @@ function Body() {
 
           <input type="submit" className="btn btn-primary" value="Submit" />
         </form>
+      </section>
+      <section className="section4" id="anchor-tweets">
+        <div>
+          <TweetEmbed id="1614259921109004290" />
+        </div>
+        <div>
+          <TweetEmbed id="1615797235836456960" />
+        </div>
+        <div>
+          <TweetEmbed id="1629197532797575170" />
+        </div>
       </section>
       <script
         src="https://unpkg.com/react@18/umd/react.development.js"
