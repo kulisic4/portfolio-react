@@ -1,5 +1,5 @@
 import react from "react";
-import TweetEmbed from "react-tweet-embed";
+{/*import TweetEmbed from "react-tweet-embed";*/}
 
 function Body() {
   return (
@@ -212,17 +212,6 @@ function Body() {
 
           <input type="submit" className="btn btn-primary" value="Submit" />
         </form>
-      </section>
-      <section className="section4" id="anchor-tweets">
-        <div>
-          <TweetEmbed id="1614259921109004290" />
-        </div>
-        <div>
-          <TweetEmbed id="1615797235836456960" />
-        </div>
-        <div>
-          <TweetEmbed id="1629197532797575170" />
-        </div>
       </section>
       <script
         src="https://unpkg.com/react@18/umd/react.development.js"
