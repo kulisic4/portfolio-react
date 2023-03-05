@@ -59,7 +59,7 @@ function Body() {
               href="https://twitter.com/kulisic4"
             >
               <i className="fa-brands fa-twitter"></i>{" "}
-              {/*<FontAwesomeIcon icon={brands('twitter')} />*/}
+              {/*<FontAwesomeIcon icon={brands('twitter')} /> It doesn't work because npm free-brands can't be installed */}
             </a>
           </li>
           <li className="linkedin">
