@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run build",
-    "build": "webpack --mode development --devtool eval-source-map && xcopy src/index.html dist/index.html && webpack-dev-server --content-base src/ --inline --hot",
-    "build:prod": "webpack -p && xcopy src/index.html dist/index.html"
+    "build": "webpack --mode development --devtool eval-source-map && copy src/index.html dist/index.html && webpack-dev-server --content-base src/ --inline --hot",
+    "build:prod": "webpack -p && npm copy src/index.html dist/index.html"
   },
   "author": "Danilo Kulisic",
   "license": "ISC",

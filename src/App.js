@@ -9,7 +9,8 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Body />
+      <Right-nav-bar />
+      <Top-nav-Bar />
     </div>
   );
 }
