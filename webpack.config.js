@@ -1,28 +1,19 @@
-var webpack = require("webpack");
-var path = require("path");
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const path = require('path');
 
-var DIST_DIR = path.resolve(__dirname, "dist");
-var SRC_DIR = path.resolve(__dirname, "src");
 
-var config = {
-    entry: SRC_DIR + "/app/index.js", 
-    output: {
-        path: DIST_DIR + "/app",
-        filename: "bundle.js",
-        publicPath: "/app/"
-    },
-    module: {
-        rules: [
-            {
-                test: /\.js?/,
-                include: SRC_DIR,
-                loader: "babel-loader",
-                options: {
-                    presets: ["@babel/preset-env", "@babel/preset-react"]
-                }
-            }
-        ]
-    }
+module.exports = {  
+  entry: './src/index.js',
+  mode: 'development',
+  output: {
+    filename: 'bundle.js',
+    path: path.resolve(__dirname, 'dist'),
+  },
+  plugins: [
+    new CleanWebpackPlugin(),
+    new HtmlWebpackPlugin({
+      template: './src/index.html',
+    }),
+  ],
 };
-
-module.exports = config;
